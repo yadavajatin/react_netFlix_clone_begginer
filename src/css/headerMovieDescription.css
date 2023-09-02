@@ -1,0 +1,42 @@
+.header-movie-description__wrapper{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 250px;
+}
+
+.header-movie-description__info-button{
+    background-color: gray;
+    color: white;
+}
+
+.header-movie-description__play-button{
+
+}
+
+.header-movie-description__play-button:hover{
+    background-color: #d9232e;
+    color: white;
+    transition: all 0.2s;
+}
+
+.header-movie-description__info-button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}
+
+.header-movie-description__title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.header-movie-description__buttons{
+    margin-bottom:1rem
+}
+
+.header-movie-description__description{
+    width: 24rem;
+    color: white;
+}

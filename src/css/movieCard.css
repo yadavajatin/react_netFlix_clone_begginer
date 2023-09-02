@@ -1,0 +1,18 @@
+.movie-card__wrapper{
+    position: relative;
+    cursor: pointer;
+}
+
+.movie-card__logo{
+    width: 20px;
+    position: absolute;
+}
+
+.movie-card__poster{
+    max-width: 184px;
+    border-radius: 8px;
+}
+
+.movie-card__title{
+    color: white;
+}

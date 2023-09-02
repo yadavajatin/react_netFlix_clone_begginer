@@ -1,0 +1,24 @@
+.movie-card-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-card-list__title{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.movie-list{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-bottom: 2rem;
+}
+
+.movie-list::-webkit-scrollbar{
+    display: none
+}
